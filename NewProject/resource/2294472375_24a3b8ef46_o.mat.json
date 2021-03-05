@@ -1,0 +1,94 @@
+{
+    "asset": {
+        "version": "2.0"
+    },
+    "extensionsRequired": [
+        "egret"
+    ],
+    "extensionsUsed": [
+        "egret"
+    ],
+    "extensions": {
+        "KHR_techniques_webgl": {
+            "shaders": [],
+            "techniques": [
+                {
+                    "attributes": {},
+                    "uniforms": {},
+                    "states": {
+                        "enable": [
+                            2929,
+                            2884
+                        ],
+                        "functions": {
+                            "depthFunc": [
+                                515
+                            ],
+                            "depthMask": [
+                                true
+                            ],
+                            "frontFace": [
+                                2305
+                            ],
+                            "cullFace": [
+                                1028
+                            ]
+                        }
+                    }
+                }
+            ],
+            "programs": []
+        },
+        "egret": {
+            "version": "5",
+            "minVersion": "5",
+            "assets": [
+                "builtin/equirect.shader.json"
+            ],
+            "entities": [
+                {
+                    "uuid": "a8b622b9-5bc0-4594-9956-707bf1a1d733",
+                    "__class": "@egret/core/AssetEntity",
+                    "components": [
+                        {
+                            "uuid": "bb7a020f-e5d1-4444-ba36-87be3b21b8f9"
+                        },
+                        {
+                            "uuid": "d72e09ba-86c8-4168-98e5-d5582f3dd34d"
+                        }
+                    ]
+                }
+            ],
+            "components": [
+                {
+                    "uuid": "bb7a020f-e5d1-4444-ba36-87be3b21b8f9",
+                    "__class": "@egret/core/MissingComponent",
+                    "missingObject": {
+                        "uuid": "dfe4383a-6334-42ed-825f-4b749235f804",
+                        "__class": "AssetRefCount"
+                    }
+                },
+                {
+                    "uuid": "d72e09ba-86c8-4168-98e5-d5582f3dd34d",
+                    "__class": "@egret/render/Material",
+                    "glTF": 0,
+                    "shader": {
+                        "__asset": 0
+                    }
+                }
+            ]
+        }
+    },
+    "materials": [
+        {
+            "extensions": {
+                "KHR_techniques_webgl": {
+                    "technique": 0,
+                    "values": {
+                        "tEquirect": "2294472375_24a3b8ef46_o.jpg.image.json"
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,90 @@
+{
+    "version": "5",
+    "minVersion": "5",
+    "assets": [
+        "2294472375_24a3b8ef46_o.mat.json"
+    ],
+    "entities": [
+        {
+            "uuid": "889619b4-0262-4cfe-add7-28ce7a76cf57",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "6a47c840-c8fa-4b86-951a-9b6459b4212d"
+                },
+                {
+                    "uuid": "b5a52cb4-c947-4568-a984-066449170da7"
+                }
+            ]
+        },
+        {
+            "uuid": "2fab73b5-66f4-4860-991a-71bd810241f1",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "4d579f89-d294-4f96-b4ac-1c8a84e90181"
+                },
+                {
+                    "uuid": "4f4beabf-a961-4064-b30a-8cf80197f72b"
+                },
+                {
+                    "uuid": "db421907-ee18-4f72-b3a4-26ad19efab85"
+                },
+                {
+                    "uuid": "dd0b4795-b980-4c47-adab-b7b41beceb8a"
+                },
+                {
+                    "uuid": "fd8cf3a8-9b45-490b-a60d-be31bd7375f2"
+                }
+            ]
+        }
+    ],
+    "components": [
+        {
+            "uuid": "6a47c840-c8fa-4b86-951a-9b6459b4212d",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Root",
+            "children": [
+                {
+                    "uuid": "4d579f89-d294-4f96-b4ac-1c8a84e90181"
+                }
+            ]
+        },
+        {
+            "uuid": "4d579f89-d294-4f96-b4ac-1c8a84e90181",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Main Camera",
+            "tag": "MainCamera"
+        },
+        {
+            "uuid": "4f4beabf-a961-4064-b30a-8cf80197f72b",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0,
+                1,
+                -10
+            ]
+        },
+        {
+            "uuid": "db421907-ee18-4f72-b3a4-26ad19efab85",
+            "__class": "@egret/render/Camera"
+        },
+        {
+            "uuid": "dd0b4795-b980-4c47-adab-b7b41beceb8a",
+            "__class": "@egret/render/Skybox",
+            "materials": [
+                {
+                    "__asset": 0
+                }
+            ]
+        },
+        {
+            "uuid": "fd8cf3a8-9b45-490b-a60d-be31bd7375f2",
+            "__class": "DragRotateCamera"
+        },
+        {
+            "uuid": "b5a52cb4-c947-4568-a984-066449170da7",
+            "__class": "@egret/engine/Scene"
+        }
+    ]
+}
